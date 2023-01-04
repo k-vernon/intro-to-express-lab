@@ -6,5 +6,5 @@ const dogBreeds = [
 ]
 
 export {
-  todos
+  dogBreeds
 }

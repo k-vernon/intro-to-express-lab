@@ -1,6 +1,7 @@
 // import modules
 
 import express from 'express'
+import { dogBreeds } from './data/dog-breeds-data.js'
 
 // Create Express app
 
@@ -23,6 +24,13 @@ app.get('/', function(req, res) {
 app.get('/home', function(req, res){
   res.render('home')
 })
+
+app.get('/dogbreeds', function(req, res){
+  res.render('dog-breeds/index', {
+    dogBreeds: dogBreeds
+  })
+})
+
 
 // Tell the app to listen on port 3000
 

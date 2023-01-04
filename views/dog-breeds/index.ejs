@@ -9,7 +9,13 @@
 <body>
     <h1>Dog Breeds</h1>
     <ul>
-      <%  %> 
+      <% dogBreeds.forEach(breed => { %>
+        <li>
+          <%= breed.text %>
+          -
+          <%= breed.text ? 'done' : 'not done' %>
+        </li>
+      <% }) %>
     </ul> 
 </body>
 </html>
