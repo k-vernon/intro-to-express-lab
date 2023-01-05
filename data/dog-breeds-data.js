@@ -1,10 +1,20 @@
 const dogBreeds = [
-  {text:"Dalmation", done: true},
-  {text:"Beagle", done: true},
-  {text:"Pit Bull", done: true},
-
+  {text:"Dalmation", large: true},
+  {text:"Beagle", large: false},
+  {text:"Pit Bull", large: true},
+  {text:"Dachshund", large: false},
+  {text:"Jack Russell Terrier", large: false},
+  {text:"Great Dane", large: true},
+  {text:"Siberian Husky", large: true},
+  {text:"Cane Corso", large: true},
+  {text:"Cocker Spaniel", large: false},
+  {text:"Doberman Pinscher", large: true},
+  {text:"Bullmastiff", large: true},
+  {text:"Afghan Hound", large: true},
 ]
 
+
+
 export {
-  dogBreeds
+  dogBreeds,
 }
